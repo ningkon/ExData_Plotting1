@@ -30,7 +30,7 @@ png( filename = "./Coursera/Assignments/Exploratory Data Analysis Assngmt 1/plot
 
 # plot frequency of Global Active Power with given annotations:
 
-plot(mydata$New_Date, b$Global_active_power, type = "l", ylab = "Global Active Power (kilowatts)", xlab = "")
+plot(mydata$New_Date, mydata$Global_active_power, type = "l", ylab = "Global Active Power (kilowatts)", xlab = "")
 
 # close device
 
