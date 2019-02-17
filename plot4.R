@@ -34,7 +34,7 @@ par(mfrow=c(2,2))
 
 # plot the first plot: global active power as in plot1.png
 
-plot(mydata$New_Date, b$Global_active_power, type = "l", ylab = "Global Active Power (kilowatts)", xlab = "")
+plot(mydata$New_Date, mydata$Global_active_power, type = "l", ylab = "Global Active Power (kilowatts)", xlab = "")
 
 # plot the second plot: voltage~NewDate
 
